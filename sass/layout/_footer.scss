@@ -1,0 +1,13 @@
+/* footer
+--------------------------------------------------*/
+.footer {
+	margin-top: $primary-space;
+	padding: 40px 0;
+	border-top: 1px solid $border-color;
+
+	@at-root #{&}__copyright {
+		@include fonts(16px, 300);
+	}
+}
+/* end footer
+--------------------------------------------------*/

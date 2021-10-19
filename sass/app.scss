@@ -3,8 +3,9 @@
 
 @import "./vendor/normalize";
 
-@import "./core/reset";
+@import "./core/_classes.scss";
 @import "./core/typography";
+@import "./core/reset";
 
 @import "./components/buttons";
 @import "./components/cards";

@@ -1,0 +1,85 @@
+/* products
+--------------------------------------------------*/
+.products {
+	padding: $primary-space 0;
+
+	@at-root #{&}__items {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+	}
+
+	@at-root #{&}__items-item {
+		padding: 30px;
+		margin-bottom: $alt-space;
+
+		&:hover .products__overlay {
+			top: 0;
+		}
+	}
+
+	@at-root #{&}__image {
+		img {
+			width: 100%;
+			max-width: 100%;
+		}
+
+		@include relative();
+		overflow: hidden;
+	}
+
+	@at-root #{&}__overlay {
+		@include absolute($top: 100%, $right: 0, $left: 0);
+		width: 100%;
+		height: 100%;
+		background-color: rgb(226 226 226 / 92%);
+		@include prefix(transition, top 0.3s, webkit o);
+	}
+
+	@at-root #{&}__add-cart {
+		@include relative();
+		@include fonts(40px, 300);
+		font-style: italic;
+		cursor: pointer;
+		text-transform: capitalize;
+
+		&::before {
+			content: "";
+			@include absolute($bottom: -10px, $left: 0);
+			width: 0;
+			height: 3px;
+			background: $primary-color;
+			@include prefix(transition, width 0.3s, webkit o);
+		}
+
+		&:hover {
+			&::before {
+				width: 100%;
+			}
+		}
+	}
+
+	@at-root #{&}__body {
+		@include flex-box();
+		@include justify-content(space-between);
+		margin-top: 24px;
+	}
+
+	@at-root #{&}__title {
+		@include fonts(20px, 400);
+	}
+
+	@at-root #{&}__cate {
+		@include fonts(14px, 400);
+		margin-top: 6px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: $alt-color;
+	}
+
+	@at-root #{&}__price {
+		@include fonts(20px, 400);
+	}
+}
+/* end products
+--------------------------------------------------*/

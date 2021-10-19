@@ -1,0 +1,18 @@
+/* flex
+--------------------------------------------------*/
+.site--flex {
+	@include flex-box();
+	@include align-items();
+	@include justify-content(space-between);
+}
+
+.site--verticalCenter {
+	@include flex-box();
+	@include align-items();
+}
+
+.site--center {
+	@include flex-box();
+	@include align-items();
+	@include justify-content(center);
+}

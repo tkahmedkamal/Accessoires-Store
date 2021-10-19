@@ -1,0 +1,22 @@
+/* navbar
+--------------------------------------------------*/
+.navbar {
+	width: 100%;
+	padding: 49px 0;
+
+	@at-root #{&}-cart__content {
+		cursor: pointer;
+	}
+
+	@at-root #{&}-cart__temp {
+		@include fonts(16px, 500);
+		text-transform: uppercase;
+		margin-left: 16px;
+	}
+
+	@media(max-width: 767px) {
+		padding: 20px 0;
+	}
+}
+/* end navbar
+--------------------------------------------------*/

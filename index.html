@@ -10,5 +10,142 @@
 		<title>Accessories Store</title>
 	</head>
 
-	<body></body>
+	<body>
+		<!-- navbar
+		---------------------------------------------- -->
+		<nav class="navbar">
+			<div class="container">
+				<div class="navbar__content site--flex">
+					<a href="index.html" class="navbar__logo">
+						<img
+							src="images/Logo.svg"
+							alt="accessories store"
+							class="navbar-logo__img"
+						/>
+					</a>
+					<div class="navbar__cart">
+						<span class="navbar-cart__content site--verticalCenter">
+							<img src="images/shopping-bag.svg" alt="cart" />
+							<span class="navbar-cart__temp">cart( 0 )</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- end navbar
+		---------------------------------------------- -->
+
+		<!-- products
+		---------------------------------------------- -->
+		<div class="products">
+			<div class="container">
+				<div class="products__items">
+					<!-- it is added from javascript -->
+					<div class="products__items-item">
+						<div class="products__image">
+							<img src="images/product-1.jpg" alt="product" />
+							<div class="products__overlay site--center">
+								<p class="products__add-cart" data-id="1">add to cart</p>
+							</div>
+						</div>
+						<section class="products__body">
+							<section class="products__text">
+								<h3 class="products__title">Nike backpak</h3>
+								<p class="products__cate">backpak</p>
+							</section>
+							<h3 class="products__price">$94.99</h3>
+						</section>
+					</div>
+					<div class="products__items-item">
+						<div class="products__image">
+							<img src="images/product-2.jpg" alt="product" />
+							<div class="products__overlay site--center">
+								<p class="products__add-cart" data-id="2">add to cart</p>
+							</div>
+						</div>
+						<section class="products__body">
+							<section class="products__text">
+								<h3 class="products__title">Nike backpak</h3>
+								<p class="products__cate">backpak</p>
+							</section>
+							<h3 class="products__price">$94.99</h3>
+						</section>
+					</div>
+					<div class="products__items-item">
+						<div class="products__image">
+							<img src="images/product-3.jpg" alt="product" />
+							<div class="products__overlay site--center">
+								<p class="products__add-cart" data-id="3">add to cart</p>
+							</div>
+						</div>
+						<section class="products__body">
+							<section class="products__text">
+								<h3 class="products__title">Nike backpak</h3>
+								<p class="products__cate">backpak</p>
+							</section>
+							<h3 class="products__price">$94.99</h3>
+						</section>
+					</div>
+					<!-- it is added from javascript -->
+				</div>
+			</div>
+		</div>
+		<!-- end products
+		---------------------------------------------- -->
+
+		<!-- cart
+		---------------------------------------------- -->
+		<div class="cart__overlay">
+			<div class="cart">
+				<div class="cart__header site--flex">
+					<img src="images/Logo.svg" alt="accessories store" />
+					<img src="images/close-icon.svg" alt="close" class="cart__close" />
+				</div>
+				<div class="cart__items">
+					<!-- it is added from javascript -->
+					<div class="cart__item site--flex">
+						<div class="cart__info site--flex">
+							<div class="cart__image">
+								<img src="images/product-1.jpg" alt="product" />
+							</div>
+							<section class="cart__texts">
+								<h5 class="cart__title">Nike backpak</h5>
+								<h5 class="cart__price">$94.99</h5>
+								<p class="cart__remove" data-id="1">remove</p>
+							</section>
+						</div>
+						<div class="cart__count">
+							<div class="cart__count-plus cart__count-icon" data-id="1">
+								<img src="images/chevron-up-icon.svg" alt="+" />
+							</div>
+							<p class="cart__count-number">1</p>
+							<div class="cart__count-minus cart__count-icon" data-id="1">
+								<img src="images/chevron-down-icon.svg" alt="-" />
+							</div>
+						</div>
+					</div>
+					<!-- it is added from javascript -->
+				</div>
+				<div class="cart__footer">
+					<div class="cart__total site--flex">
+						<p class="cart__total-text">total:</p>
+						<p class="cart__total-price">$0.00</p>
+					</div>
+					<button class="cart__clear">
+						<p>clear cart</p>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- end cart
+		---------------------------------------------- -->
+
+		<!-- footer
+		---------------------------------------------- -->
+		<footer class="footer site--flex container">
+			<p class="footer__copyright">Copyright © 2021 Accessories</p>
+		</footer>
+		<!-- end footer
+		---------------------------------------------- -->
+	</body>
 </html>
