@@ -41,49 +41,21 @@
 			<div class="container">
 				<div class="products__items">
 					<!-- it is added from javascript -->
-					<div class="products__items-item">
-						<div class="products__image">
+					<div class="products__items-item prod-card">
+						<div class="products__image prod-card__image">
 							<img src="images/product-1.jpg" alt="product" />
-							<div class="products__overlay site--center">
-								<p class="products__add-cart" data-id="1">add to cart</p>
+							<div class="products__overlay prod-card__overlay site--center">
+								<p class="products__add-cart prod-card__add-cart" data-id="1">
+									add to cart
+								</p>
 							</div>
 						</div>
-						<section class="products__body">
-							<section class="products__text">
-								<h3 class="products__title">Nike backpak</h3>
-								<p class="products__cate">backpak</p>
+						<section class="products__body prod-card__body">
+							<section class="products__text prod-card__text">
+								<h3 class="products__title prod-card__title">Nike backpak</h3>
+								<p class="products__cate prod-card__cate">backpak</p>
 							</section>
-							<h3 class="products__price">$94.99</h3>
-						</section>
-					</div>
-					<div class="products__items-item">
-						<div class="products__image">
-							<img src="images/product-2.jpg" alt="product" />
-							<div class="products__overlay site--center">
-								<p class="products__add-cart" data-id="2">add to cart</p>
-							</div>
-						</div>
-						<section class="products__body">
-							<section class="products__text">
-								<h3 class="products__title">Nike backpak</h3>
-								<p class="products__cate">backpak</p>
-							</section>
-							<h3 class="products__price">$94.99</h3>
-						</section>
-					</div>
-					<div class="products__items-item">
-						<div class="products__image">
-							<img src="images/product-3.jpg" alt="product" />
-							<div class="products__overlay site--center">
-								<p class="products__add-cart" data-id="3">add to cart</p>
-							</div>
-						</div>
-						<section class="products__body">
-							<section class="products__text">
-								<h3 class="products__title">Nike backpak</h3>
-								<p class="products__cate">backpak</p>
-							</section>
-							<h3 class="products__price">$94.99</h3>
+							<h3 class="products__price prod-card__price">$94.99</h3>
 						</section>
 					</div>
 					<!-- it is added from javascript -->
@@ -103,23 +75,35 @@
 				</div>
 				<div class="cart__items">
 					<!-- it is added from javascript -->
-					<div class="cart__item site--flex">
-						<div class="cart__info site--flex">
-							<div class="cart__image">
+					<div class="cart__item site--flex cart-card">
+						<div class="cart__info site--flex cart-card__info">
+							<div class="cart__image cart-card__image">
 								<img src="images/product-1.jpg" alt="product" />
 							</div>
-							<section class="cart__texts">
-								<h5 class="cart__title">Nike backpak</h5>
-								<h5 class="cart__price">$94.99</h5>
-								<p class="cart__remove" data-id="1">remove</p>
+							<section class="cart__texts cart-card__texts">
+								<h5 class="cart__title cart-card__title">Nike backpak</h5>
+								<h5 class="cart__price cart-card__price">$94.99</h5>
+								<p class="cart__remove cart-card__remove" data-id="1">remove</p>
 							</section>
 						</div>
-						<div class="cart__count">
-							<div class="cart__count-plus cart__count-icon" data-id="1">
+						<div class="cart__count cart-card__count">
+							<div
+								class="
+									cart__count-plus
+									cart-card__count-icon cart-card__count-plus
+								"
+								data-id="1"
+							>
 								<img src="images/chevron-up-icon.svg" alt="+" />
 							</div>
-							<p class="cart__count-number">1</p>
-							<div class="cart__count-minus cart__count-icon" data-id="1">
+							<p class="cart__count-number cart-card__count-number">1</p>
+							<div
+								class="
+									cart__count-minus
+									cart-card__count-icon cart-card__count-minus
+								"
+								data-id="1"
+							>
 								<img src="images/chevron-down-icon.svg" alt="-" />
 							</div>
 						</div>
@@ -131,7 +115,7 @@
 						<p class="cart__total-text">total:</p>
 						<p class="cart__total-price">$0.00</p>
 					</div>
-					<button class="cart__clear">
+					<button class="cart__clear main-button">
 						<p>clear cart</p>
 					</button>
 				</div>

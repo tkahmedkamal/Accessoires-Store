@@ -5,7 +5,7 @@
 	width: 100%;
 	height: 100%;
 	background: rgb(0 0 0 / 29%);
-	visibility: hidden;
+	// visibility: hidden;
 
 	.cart {
 		@include fixed($top: 0, $right: 0);
@@ -13,7 +13,7 @@
 		height: 100vh;
 		background-color: #fff;
 		padding: 40px;
-		transform: translateX(100%);
+		// transform: translateX(100%);
 		@include prefix(transition, transform 0.4s, webkit o);
 
 		@at-root #{&}__close {
@@ -31,48 +31,6 @@
 			overflow-x: hidden;
 		}
 
-		@at-root #{&}__item {
-			margin-bottom: $alt-space;
-		}
-
-		@at-root #{&}__image {
-			width: 77px;
-			height: 77px;
-
-			img {
-				width: 100%;
-			}
-		}
-
-		@at-root #{&}__texts {
-			margin-left: 24px;
-		}
-
-		@at-root #{&}__title {
-			@include fonts(16px, 400);
-		}
-
-		@at-root #{&}__price {
-			@include fonts(16px, 500);
-			margin-top: 10px;
-		}
-
-		@at-root #{&}__remove {
-			@include fonts(14px, 400);
-			margin-top: 5px;
-			cursor: pointer;
-		}
-
-		@at-root #{&}__count-number {
-			@include fonts(16, 500);
-			padding: 10px 0;
-			text-align: center;
-		}
-
-		@at-root #{&}__count-icon {
-			cursor: pointer;
-		}
-
 		@at-root #{&}__footer {
 			@include absolute($bottom: 0, $left: 0);
 			width: 100%;
@@ -88,38 +46,6 @@
 
 		@at-root #{&}__total-price {
 			@include fonts(20px, 400);
-		}
-
-		@at-root #{&}__clear {
-			@include relative();
-			display: block;
-			margin-top: 32px;
-			background-color: $primary-color;
-			width: 100%;
-			padding: 18px;
-			color: #fff;
-			text-transform: uppercase;
-			cursor: pointer;
-
-			p {
-				@include relative();
-				z-index: 1;
-			}
-
-			&::before {
-				content: "";
-				@include absolute($top: 0, $left: 0);
-				width: 0;
-				height: 100%;
-				background-color: $alt-color;
-				@include prefix(transition, width 0.4s, webkit o);
-			}
-
-			&:hover {
-				&::before {
-					width: 100%;
-				}
-			}
 		}
 	}
 }

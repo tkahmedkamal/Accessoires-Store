@@ -1,0 +1,36 @@
+/* main button
+--------------------------------------------------*/
+.main-button {
+	@include relative();
+	display: block;
+	margin-top: 32px;
+	background-color: $primary-color;
+	width: 100%;
+	padding: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	p {
+		@include relative();
+		z-index: 1;
+	}
+
+	&::before {
+		content: "";
+		@include absolute($top: 0, $left: 0);
+		width: 0;
+		height: 100%;
+		background-color: $alt-color;
+		@include prefix(transition, width 0.4s, webkit o);
+	}
+
+	&:hover {
+		&::before {
+			width: 100%;
+		}
+	}
+}
+
+/* end main button
+--------------------------------------------------*/
