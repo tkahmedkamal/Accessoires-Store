@@ -1,16 +1,6 @@
 # Accessoires-Store
 
-![GitHub followers](https://img.shields.io/github/followers/tkahmedkamal?logo=github&style=for-the-badge)
-
-![GitHub User's stars](https://img.shields.io/github/stars/tkahmedkamal?logo=github&style=for-the-badge)
-
-![GitHub all releases](https://img.shields.io/github/downloads/tkahmedkamal/accessories-store/total?logo=Github&style=for-the-badge)
-
-![GitHub Repo stars](https://img.shields.io/github/stars/tkahmedkamal/accessories-store?logo=Github&style=for-the-badge)
-
-![GitHub forks](https://img.shields.io/github/forks/tkahmedkamal/accessories-store?logo=github&style=for-the-badge)
-
-![GitHub watchers](https://img.shields.io/github/watchers/tkahmedkamal/accessories-store?logo=github&style=for-the-badge)
+![GitHub followers](https://img.shields.io/github/followers/tkahmedkamal?logo=github&style=for-the-badge) ![GitHub User's stars](https://img.shields.io/github/stars/tkahmedkamal?logo=github&style=for-the-badge) ![GitHub all releases](https://img.shields.io/github/downloads/tkahmedkamal/accessories-store/total?logo=Github&style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/tkahmedkamal/accessories-store?logo=Github&style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/tkahmedkamal/accessories-store?logo=github&style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/tkahmedkamal/accessories-store?logo=github&style=for-the-badge)
 
 ## Project Overview
 
