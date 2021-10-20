@@ -8,6 +8,10 @@
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
 	}
+
+	@at-root #{&}__add-cart {
+		background: transparent;
+	}
 }
 /* end products
 --------------------------------------------------*/

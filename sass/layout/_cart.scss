@@ -6,6 +6,7 @@
 	height: 100%;
 	background: rgb(0 0 0 / 29%);
 	visibility: hidden;
+	@include prefix(transition, visibility 0.4s, webkit o);
 
 	.cart {
 		@include fixed($top: 0, $right: 0);
@@ -13,7 +14,7 @@
 		height: 100vh;
 		background-color: #fff;
 		padding: 40px;
-		transform: translateX(100%);
+		@include prefix(transform, translateX(100%), webkit ms);
 		@include prefix(transition, transform 0.4s, webkit o);
 
 		@at-root #{&}__close {
@@ -48,6 +49,14 @@
 			@include fonts(20px, 400);
 		}
 	}
+}
+
+.show--overlay {
+	visibility: visible;
+}
+
+.show--cart {
+	@include prefix(transform, translateX(0) !important, webkit ms);
 }
 /* end cart
 --------------------------------------------------*/

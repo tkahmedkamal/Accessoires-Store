@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Nike backpak",
+				"cate": "Backpak",
+        "price": 94.99,
+        "image": { "fields": { "file": { "url": "./images/product-1.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Hat for women",
+				"cate": "HATS",
+        "price": 18.99,
+        "image": { "fields": { "file": { "url": "./images/product-2.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Women bag",
+				"cate": "BAG",
+        "price": 45.52,
+        "image": { "fields": { "file": { "url": "./images/product-3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Wristwatch rolex",
+				"cate": "wristwatch",
+        "price": 98.45,
+        "image": { "fields": { "file": { "url": "./images/product-4.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Sun glasses",
+				"cate": "glasses",
+        "price": 52.59,
+        "image": { "fields": { "file": { "url": "./images/product-5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Ice cap",
+				"cate": "CAP",
+        "price": 55.58,
+        "image": { "fields": { "file": { "url": "./images/product-6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Men belt",
+				"cate": "BELT",
+        "price": 45.12,
+        "image": { "fields": { "file": { "url": "./images/product-7.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Men scarf",
+				"cate": "SCARF",
+        "price": 23.45,
+        "image": { "fields": { "file": { "url": "./images/product-8.jpg" } } }
+      }
+    },
+		{
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "Diamond jewelers",
+				"cate": "JEWELERS",
+        "price": 88.49,
+        "image": { "fields": { "file": { "url": "./images/product-9.jpg" } } }
+      }
+    }
+  ]
+}
