@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon js/app.js",
-		"serv": "live-server"
+    "serv": "live-server"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "nodemon": "^2.0.13"
   },
   "dependencies": {
+    "contentful": "^9.1.3",
     "normalize.css": "^8.0.1"
   }
 }
