@@ -1,7 +1,11 @@
-import { ProductData } from "./app/ProductData.js";
-import { UserInterface } from "./app/UserInterface.js";
-import Storage from "./app/Storage.js";
-import { cursor, parallaxScroll } from "./Utility/UiTouches.js";
+import "regenerator-runtime/runtime";
+
+import { ProductData } from "./app/ProductData";
+import { UserInterface } from "./app/UserInterface";
+import Storage from "./app/Storage";
+import { cursor, parallaxScroll } from "./Utility/UiTouches";
+import "../sass/app.scss";
+
 class App {
 	static init() {
 		const productData = new ProductData();

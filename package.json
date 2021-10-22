@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon js/app.js",
-    "serv": "live-server"
+    "prod": "webpack server --config webpack.config.prod.js --hot",
+		"dev": "webpack server --config webpack.config.dev.js --hot"
   },
   "repository": {
     "type": "git",
@@ -20,16 +21,33 @@
   ],
   "author": "Ahmed Kamal",
   "license": "ISC",
+  "browserslist": "> 0.2%, not dead",
   "bugs": {
     "url": "https://github.com/tkahmedkamal/accessoires-store/issues"
   },
   "homepage": "https://github.com/tkahmedkamal/accessoires-store#readme",
   "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.4.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.0",
+    "html-webpack-plugin": "^5.4.0",
     "live-server": "^1.2.1",
-    "nodemon": "^2.0.13"
+    "mini-css-extract-plugin": "^2.4.3",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.13",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
-    "contentful": "^9.1.3",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "regenerator-runtime": "^0.13.9"
   }
 }
