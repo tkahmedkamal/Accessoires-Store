@@ -38,6 +38,12 @@ This is an online store project, which mainly focuses on dealing with the shoppi
 
 ---
 
+## Hosting
+
+Live Demo : https://accessories-store.netlify.app/
+
+---
+
 ## Run the project
 
 There is two environments (Mode) setup for this project:
