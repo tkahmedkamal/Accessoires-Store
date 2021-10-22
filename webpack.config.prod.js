@@ -17,6 +17,7 @@ module.exports = {
 	devServer: {
 		static: path.resolve(__dirname, "./dist"),
 		port: 9000,
+		open: true,
 		devMiddleware: {
 			writeToDisk: true,
 		},

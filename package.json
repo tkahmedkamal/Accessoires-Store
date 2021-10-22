@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon js/app.js",
     "prod": "webpack server --config webpack.config.prod.js --hot",
-		"dev": "webpack server --config webpack.config.dev.js --hot"
+    "dev": "webpack server --config webpack.config.dev.js --hot"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,6 @@
     "file-loader": "^6.2.0",
     "html-loader": "^3.0.0",
     "html-webpack-plugin": "^5.4.0",
-    "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^2.4.3",
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.13",
