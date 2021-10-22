@@ -16,6 +16,7 @@ This is an online store project, which mainly focuses on dealing with the shoppi
 <img align="left" alt="medium" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 <img align="left" alt="medium" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
 <img align="left" alt="medium" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img align="left" alt="medium" src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=white" />
 
 --
 
@@ -39,8 +40,24 @@ This is an online store project, which mainly focuses on dealing with the shoppi
 
 ## Run the project
 
+There is two environments (Mode) setup for this project:
+
+> Development environment(Mode)
+> if you are going to apply some changes to the project and want the server to automatically re-build the application and reloads the page.
+> So you should use this command:
+
 ```
-npm run serv
+npm run dev
 ```
 
-and it will open a new window in your browser with the app running on `localhost:8080`
+and it will open a new window in your browser with the app running on `localhost:9000`
+
+> Production environment(Mode)
+> if you are going to run the project for production (with express server).
+> So you should use these commands:
+
+```
+npm run prod
+```
+
+and it will open a new window in your browser with the app running locally on port `localhost:9000`
