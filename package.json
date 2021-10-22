@@ -4,9 +4,8 @@
   "description": "Men's and women's accessories store",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon js/app.js",
-    "prod": "webpack server --config webpack.config.prod.js --hot",
-    "dev": "webpack server --config webpack.config.dev.js --hot"
+    "dev": "webpack server --config webpack.config.dev.js --hot",
+    "prod": "webpack --config webpack.config.prod.js"
   },
   "repository": {
     "type": "git",
@@ -38,7 +37,6 @@
     "html-webpack-plugin": "^5.4.0",
     "mini-css-extract-plugin": "^2.4.3",
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.13",
     "sass-loader": "^12.2.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.59.1",
